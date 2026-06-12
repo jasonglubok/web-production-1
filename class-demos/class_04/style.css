@@ -1,5 +1,60 @@
 /*
- imperial blue #222a68
- majorelle blue #574ae2
- flag red #d62828
- vivid tangerine #f77f00
+   imperial blue #222a68
+   true cobalt #14248A
+   shadow grey #28262C
+   space indigo #302F4D
+*/
+
+body{
+	background-color: #222a68;
+	height:100%;
+}
+
+  .yell{
+  /* width: 300px;
+	 height:300px;*/
+	 background-color: #302F4D;
+	 color: white;
+	 font-size: 4em;
+	 /* default display for p is block */
+	 /* 
+	    inline trucates the content; this means
+	    that width/height properties are nullified
+	*/
+	display: inline-block;
+	/* text-align works better for centering different sized words*/
+	text-align: center;
+
+	/* padding is the space between the border and the content */
+	/*padding-left: 30px;*/
+	padding: 100px;
+	writing-mode: vertical-rl;
+}
+
+.yell-container{
+	display: block;
+	text-align: center;
+}
+
+footer{
+	display: none;
+}
+
+img.logo{
+	float: right;
+}
+margin-top: 100px;
+margin-right: 125px;
+width: 50px:
+height: 50px:
+}
+
+span{
+	color:white;
+	width: 300px;
+	height:300px;
+	display: inline-block;
+	border: #574ae2 solid 4px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
