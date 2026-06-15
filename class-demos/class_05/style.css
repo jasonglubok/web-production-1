@@ -1,0 +1,35 @@
+/*
+A5F8D3
+802392
+FF0800
+00FFBF
+F28500
+*/
+
+.container{
+width: 200px;
+height: 200px;
+background-color: #802392;
+margin: 20px;
+display: inline-block;
+}
+
+body{
+	/* solutions for remvoing scroll on
+	an entire webpage */
+	overflow-y: hidden;
+	font-family: monospace;
+}
+
+/* syntax to grab all the divs that are children 
+of .container class on div */
+div.container > div{
+	width: 75px;
+	height: 75px;
+	background-color: #FF0800;
+}
+.static-child{
+	/* this doesn't do anything
+	it is the default */
+	position: static;
+}
