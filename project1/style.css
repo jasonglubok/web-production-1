@@ -1,0 +1,33 @@
+body {
+    background-color: #F8F7F4;
+    color: #2B2B2B;
+    font-family: Georgia, serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #A3C1AD; /* Cambridge Blue */
+    border-bottom: 3px solid #A3C1AD;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #8B1E3F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #C1121F;
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    max-width: 700px;
+    border: 4px solid #D6E3DC;
+    border-radius: 8px;
+}
