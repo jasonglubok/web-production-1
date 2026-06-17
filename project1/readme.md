@@ -11,8 +11,8 @@ This project is a hypertext narrative about my move from Lancaster, Pennsylvania
 - page5.html → Arriving in Cambridge
 
 ## Links
-- Code: https://github.com/your-username/web-production-1/tree/main/project1
-- Live site: https://your-username.github.io/web-production-1/project1/
+- Code: https://github.com/jasonglubok/web-production-1/tree/main/project1
+- Live site: https://jasonglubok.github.io/web-production-1/project1/
 
 ## Reflection
 This project helped me understand how hypertext can be used to tell a story, embedding information to make it more interesting.
