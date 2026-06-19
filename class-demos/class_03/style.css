@@ -1,0 +1,37 @@
+/* this is a comment in CSS */
+/* this is how to takes notes */
+
+/*
+
+CSS follows this structure:
+
+selector {
+	property: value;
+}
+
+*/
+
+body {
+	background-color: cyan;
+}
+
+p {
+	background-color: orangered;
+	font-size: 24pt;
+	/* color is text color */
+	color: white;
+}
+
+.notification {
+	border: 6px dashed lightcyan;
+	margin-bottom: 20px;
+} 
+
+/* being more specific about which div */
+/* because CSS prioritizes higher specificity */
+/* this will override the previous styling */
+/* this will apply to any element that looks like */
+/* class="notification warning" */
+.notification.warning {
+     border-color: orange;
+}
