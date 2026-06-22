@@ -1,0 +1,48 @@
+body{
+	/*background: slategray;*/
+	backgroud: linear-gradient(#b9d2b1, #fbacbe);
+	height: 100%;
+	margin: 0;
+}
+
+p{
+	width: 30%;
+	background-color: skyblue;
+	display: incline-block;
+	padding-left: 10px;
+}
+
+p.child {
+	background-color: transparent;
+}
+
+div {
+	background-color: #EAFDE633;
+}
+
+div.transparent-block{
+	position: absoulute;
+	top: 75px;
+	lefft: 300px;
+	width: 300px;
+	height: 50px;
+}
+
+div {
+	text-align: center;
+	font-size: 50px;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #fbacbe;
+}
+
+a:hover{
+	background: yellow;
+}
+
+a:link{
+	color: #b9d2b1;
+	text-decoration: none;
+}
