@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Poster - Hamilton Heights</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Arial Black', Impact, sans-serif;
+			background-color: #00933c; /* Bold Park Green background */
+			color: #111;
+			padding: 20px;
+		}
+
+		.poster-frame {
+			max-width: 800px;
+			margin: 0 auto;
+			background: #ffffff;
+			padding: 40px;
+			border: 8px solid #111111;
+			
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 40px;
+		}
+
+		header h1 {
+			font-size: 3.2rem;
+			line-height: 0.9;
+			text-transform: uppercase;
+			letter-spacing: -2px;
+			border-bottom: 15px solid #111;
+			padding-bottom: 15px;
+		}
+
+		header .subtitle {
+			font-family: Arial, sans-serif;
+			font-size: 1.2rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-top: 10px;
+			letter-spacing: 2px;
+			color: #666;
+		}
+
+		.poster-body {
+			font-family: Arial, sans-serif;
+		}
+
+		.headline-block {
+			margin-bottom: 35px;
+		}
+
+		.headline-block h2 {
+			font-family: 'Arial Black', Impact, sans-serif;
+			font-size: 1.6rem;
+			text-transform: uppercase;
+			letter-spacing: -1px;
+			margin-bottom: 8px;
+			color: #00933c; /* Park Green accents */
+		}
+
+		.headline-block p {
+			font-size: 1.1rem;
+			line-height: 1.4;
+			color: #222;
+			font-weight: 500;
+		}
+
+		.highlights-sidebar {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			background: #111;
+			color: #fff;
+			padding: 25px;
+			align-self: start;
+			text-transform: uppercase;
+		}
+
+		.perk-item {
+			border-bottom: 1px solid #333;
+			padding-bottom: 10px;
+		}
+
+		.perk-item:last-child {
+			border-bottom: none;
+			padding-bottom: 0;
+		}
+
+		.perk-item h4 {
+			font-size: 1.1rem;
+			font-family: 'Arial Black', sans-serif;
+			color: #fdd835; /* Subway Yellow */
+			margin-bottom: 3px;
+		}
+
+		.perk-item p {
+			font-size: 0.8rem;
+			color: #ccc;
+			font-family: Arial, sans-serif;
+			text-transform: none;
+		}
+
+		footer {
+			font-size: 1rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			border-top: 4px solid #111;
+			padding-top: 15px;
+			letter-spacing: 1px;
+		}
+
+		@media (min-width: 768px) {
+			body {
+				padding: 50px;
+			}
+
+			.poster-frame {
+				grid-template-columns: 1.2fr 0.8fr;
+				gap: 50px;
+				padding: 60px;
+			}
+
+			header {
+				grid-column: span 2;
+			}
+
+			header h1 {
+				font-size: 5rem;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="poster-frame">
+
+		<header>
+			<h1>Hamilton Heights</h1>
+			<div class="subtitle">Why It's the Perfect Place to Live</div>
+		</header>
+
+		<main class="poster-body">
+			
+			<div class="headline-block">
+				<h2>Historic Charm</h2>
+				<p>
+					Live surrounded by the rich legacy of Alexander Hamilton. The neighborhood combines quiet, historic brownstone streets with an energetic, welcoming community vibe.
+				</p>
+			</div>
+
+			<div class="headline-block">
+				<h2>Green Space Next Door</h2>
+				<p>
+					Steps away from 139th Street and Amsterdam is St. Nicholas Park. It runs right alongside the neighborhood, giving you beautiful hills, trees, and an instant outdoor escape from the city pavement. St. Nicholas Park also has the largest dog park in the city!
+				</p>
+			</div>
+
+			<div class="headline-block">
+				<h2>A Commuter's Dream</h2>
+				<p>
+					The local sidewalk paths lead directly to the train platforms. Catching the downtown train makes getting to Midtown, Times Square, or Hunter College easy and affordable.
+				</p>
+			</div>
+
+		</main>
+
+		<!-- Sidebar showcasing quick perks via Flexbox -->
+		<aside class="highlights-sidebar">
+			<div class="perk-item">
+				<h4>History</h4>
+				<p>Home of the historic Hamilton Grange mansion.</p>
+			</div>
+			<div class="perk-item">
+				<h4>Nature</h4>
+				<p>Plentiful green acres at St. Nicholas Park.</p>
+			</div>
+			<div class="perk-item">
+				<h4>Transit</h4>
+				<p>Direct subway access right down the block.</p>
+			</div>
+		</aside>
+
+		<footer style="grid-column: span 2;">
+			<p>Manhattan Neighborhood Profiles — Urban Studies</p>
+		</footer>
+
+	</div>
