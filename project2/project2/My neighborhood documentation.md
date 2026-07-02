@@ -3,3 +3,4 @@ it's landmarks near a dog park at St. Nicholas which is where I often walk our t
 The landmark was the Hamilton Grange Memorial Visitor Center, the home of Alexander Hamilton before it became a memorial museum. 
 The grassy fields around the Hamilton grange also has flowers that bloom on the hillsides from spring to summer where people either take a moment to lay down or have family picnics. It's one of my favorite areas
 to see whenever I walk the dogs because I like nature a lot. The history of the neighborhood I live was one of the things that inspired me to write about because I found it insteresting to learn when my mom told me about it with the details on the sanctuary around it.
+I had a bit of struggle deciding what to put in my background at first but went with green becuse it goes with nature.
