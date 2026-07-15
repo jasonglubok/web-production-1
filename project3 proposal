@@ -1,3 +1,37 @@
-For my project, I plan to build a clock that with a tire wheel because a tire is a similar circular shape of a clock when spinning 
-like the hour hand and minute hand does either at a normal pace or at high speeds. That's why I thought of using a tire wheel as a clock for my project
-with something that has a matching shape, size and motion movement of a clock. 
+For my project, I plan to create an interactive clock that lives in a web browser. The design will be inspired by a tire wheel because a tire has the same circular shape as a clock. As a tire spins, its movement is similar to the way the hour and minute hands rotate around a clock face. My website will use this connection between shape and motion by making the tire function as the clock.
+The clock will display the current time with animated hour and minute hands. I also want to include moving visual effects, such as subtle animations or flashing graphics, to reinforce the theme of movement. The website will have two pages: an index.html page that contains the interactive clock and an about.html page that explains the concept, design process, and references used in the project.
+Sketches
+Sketch 1 – Wireframe (index.html)
+I have also included my handdrawn image.
++------------------------------------------------+
+|                  Tire Clock                     |
+|                                                |
+|               _____________                    |
+|             /               \                  |
+|            |   Tire Clock     |                |
+|            |   (Clock Face)   |                |
+|            |     🕒            |                |
+|             \_______________/                  |
+|                                                |
+|     Current Time: 10:35 AM                     |
+|                                                |
+|   [About Project]                              |
++------------------------------------------------+
+Sketch 2 – Sitemap
+           Home (index.html)
+                  |
+                  |
+          About (about.html)
+
+Home:
+- Animated tire clock
+- Live time display
+- Link to About page
+
+About:
+- Project concept
+- Design process
+- References
+References
+Seeker by Leon Cmielewski – Inspired me to include projected or animated visual effects that emphasize movement and make the clock feel more dynamic.
+Google Material Design – I like its clean layout, readable typography, and simple user interface. I plan to use these design principles to make the clock easy to understand while keeping the focus on the animation and movement.
