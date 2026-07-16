@@ -3,20 +3,11 @@ The clock will display the current time with animated hour and minute hands. I a
 Sketches
 Sketch 1 – Wireframe (index.html)
 I have also included my handdrawn images as Sketch1a and Sketch1b.
-+------------------------------------------------+
-|                  Tire Clock                     |
-|                                                |
-|               _____________                    |
-|             /               \                  |
-|            |   Tire Clock     |                |
-|            |   (Clock Face)   |                |
-|            |     🕒            |                |
-|             \_______________/                  |
-|                                                |
-|     Current Time: 10:35 AM                     |
-|                                                |
-|   [About Project]                              |
-+------------------------------------------------+
+
+<img src="IMG_2535.jpg">
+
+<img src="IMG_2536.jpg">
+
 Sketch 2 – Sitemap
            Home (index.html)
                   |
